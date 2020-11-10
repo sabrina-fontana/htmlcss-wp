@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../img/sfondo-pagina.png);
+}
+
+/* utility class */
+.float-l {
+  float: left;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* fine utility class */
+
+.containter {
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+header {
+  background-image: url(../img/sfondo-header.png);
+  height: 400px;
+  border: 7px solid white;
+  position: relative;
+}
+
+.logo-header {
+  background-image: url(../img/logo-header.png);
+  width: 500px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo-text {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  line-height: 150px;
+  vertical-align: middle;
+}
+
+main {
+  padding: 5px 0;
+}
+
+.sezione1 {
+  width: 30%;
+  height: 300px;
+  background-color: #d391e3;
+}
+
+.sezione2 {
+  width: calc(40% - 20px);
+  height: 450px;
+  background-color: #800080;
+  margin: 0 10px;
+}
+
+.sezione3 {
+  width: 30%;
+}
+
+.sezione3 .blocco {
+  background-color: #d391e3;
+}
+
+.sezione3 .blocco:first-child {
+  height: 200px;
+  margin-bottom: 15px;
+}
+
+.sezione3 .blocco:nth-child(2) {
+  height: 200px;
+}
+
+footer {
+  background-color: #add8e6;
+  height: 100px;
+}
