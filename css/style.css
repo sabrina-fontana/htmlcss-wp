@@ -6,9 +6,11 @@
 
 body {
   background-image: url(../img/sfondo-pagina.png);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
 }
 
-/* utility class */
 .float-l {
   float: left;
 }
@@ -18,7 +20,6 @@ body {
   display: table;
   clear: both;
 }
-/* fine utility class */
 
 .containter {
   max-width: 1200px;
@@ -47,7 +48,7 @@ header {
 .logo-text {
   color: white;
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -59,7 +60,7 @@ header {
   height: 50px;
   background-color: #525963;
   color: white;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .header-navbar > ul {
@@ -78,6 +79,10 @@ nav a {
   color: white;
 }
 
+nav li:hover {
+  background-color: #3b3f44;
+}
+
 main {
   padding-top:15px;
 }
@@ -93,8 +98,13 @@ main {
   padding-right: 70px;
 }
 
+.section1 img {
+  vertical-align: top;
+}
+
 .section1 h2 {
   display: inline-block;
+  width: 80%;
 }
 
 .section1 div {
@@ -104,6 +114,7 @@ main {
 .section1 a {
   text-decoration: none;
   color: green;
+  font-weight: 500;
 }
 
 .section2 {
