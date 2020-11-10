@@ -50,14 +50,10 @@ header {
   font-weight: bold;
   position: absolute;
   bottom: 0;
-  width: 1200px;
+  width: 100%;
   text-align: center;
   line-height: 150px;
   vertical-align: middle;
-}
-
-main {
-  padding: 5px 0;
 }
 
 .header-navbar {
@@ -75,7 +71,6 @@ main {
 li {
   display: inline-block;
   line-height: 50px;
-  vertical-align: middle;
   padding: 0 15px;
 }
 
@@ -84,33 +79,46 @@ a {
   color: white;
 }
 
-.sezione1 {
-  width: 30%;
+main {
+  padding-top: 10px;
+}
+
+.section1 {
+  width: 25%;
   height: 300px;
   background-color: #d391e3;
 }
 
-.sezione2 {
-  width: calc(40% - 20px);
-  height: 450px;
-  background-color: #800080;
-  margin: 0 10px;
+.section2 {
+  width: 50%;
+  padding: 0 15px;
 }
 
-.sezione3 {
-  width: 30%;
+.main-content {
+  background-color: white;
+  font-size: 18px;
+  border-radius: 10px;
 }
 
-.sezione3 .blocco {
+.section2 * {
+  padding: 15px;
+  line-height: 25px;
+}
+
+.section3 {
+  width: 25%;
+}
+
+.section3 .blocco {
   background-color: #d391e3;
 }
 
-.sezione3 .blocco:first-child {
+.section3 .blocco:first-child {
   height: 200px;
   margin-bottom: 15px;
 }
 
-.sezione3 .blocco:nth-child(2) {
+.section3 .blocco:nth-child(2) {
   height: 200px;
 }
 
