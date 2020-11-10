@@ -128,8 +128,29 @@ main {
   margin: 40px 0;
 }
 
-
 footer {
-  background-color: #add8e6;
+  padding-top: 40px;
+  color: grey;
+}
+
+.footer-text {
+  font-style:italic;
+  text-align: center;
+  border-bottom: 2px solid grey;
+  line-height: 30px;
+}
+
+.footer-logo {
+  display: inline-block;
+  width: 33%;
   height: 100px;
+  position: relative;
+}
+
+.footer-logo img {
+  width: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
