@@ -52,8 +52,7 @@ header {
   bottom: 0;
   width: 100%;
   text-align: center;
-  line-height: 150px;
-  vertical-align: middle;
+  line-height: 120px;
 }
 
 .header-navbar {
@@ -80,7 +79,7 @@ nav a {
 }
 
 main {
-  padding-top: 10px;
+  padding-top:15px;
 }
 
 .content {
@@ -91,7 +90,7 @@ main {
 
 .section1 {
   width: 25%;
-  padding-right: 50px;
+  padding-right: 70px;
 }
 
 .section1 h2 {
@@ -109,30 +108,26 @@ main {
 
 .section2 {
   width: 50%;
-  padding: 0 15px;
 }
 
-.section2 * {
-  padding: 15px;
+.section2 *, .section3 * {
+  padding: 10px;
   line-height: 30px;
+}
+
+.section2 h2, .section3 h2 {
+  padding-bottom: 30px;
 }
 
 .section3 {
   width: 25%;
+  padding-left: 70px;
 }
 
-.section3 .blocco {
-  background-color: #d391e3;
+.section3 .content:nth-child(2) {
+  margin: 40px 0;
 }
 
-.section3 .blocco:first-child {
-  height: 200px;
-  margin-bottom: 15px;
-}
-
-.section3 .blocco:nth-child(2) {
-  height: 200px;
-}
 
 footer {
   background-color: #add8e6;
